@@ -1,24 +1,28 @@
 {
-    "name": "Antiguo Generador de Grafito",
-    "description": "Una antigua tecnologia abandonada desarrollada por la ciudadela central de los Crux permite generar Grafito del aire mismo.",
+    "name": "Prototipo de Grafito Volátil",
+    "description": "Este generador de 1x1 es una de las creaciones más peligrosas y olvidadas de Crux. Intentaron conjurar grafito, pero el proceso resultó ser inherentemente inestable y riesgoso, con fluctuaciones energéticas impredecibles que lo hicieron inviable para su producción masiva. Fue descartado rápidamente, considerado una amenaza más que un recurso, y sepultado en las profundidades de Serpurlo.",
     "type": "GenericCrafter",
     "category": "production",
-    "health": 100,
+    "health": 120,
     "size": 1,
     "requirements": [
-        "copper/10"
+        "copper/240",
+        "lead/120",
+        "graphite/30"
     ],
     "hasItems": true,
     "craftTime": 60,
     "itemCapacity": 10,
     "outputItem": {
-        "item": "copper",
+        "item": "graphite",
         "amount": 1
     },
     "research": {
-        "parent": "mechanical-drill",
+        "parent": "graphite-press",
         "requirements": [
-            "copper/100"
+            "copper/960",
+            "lead/420",
+            "graphite/80"
         ]
     }
 }

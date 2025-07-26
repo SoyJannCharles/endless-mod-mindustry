@@ -1,0 +1,28 @@
+{
+    "name": "Núcleo de Grafito Sharder",
+    "description": "Tras un cuidadoso estudio de los peligrosos prototipos de Crux, los científicos de Sharder lograron una hazaña: estabilizar la inestable reacción que generaba grafito. Con ingenio y una nueva matriz de contención, esta versión restaurada no solo produce grafito de manera fiable, sino que transforma un antiguo riesgo en una fuente constante y segura de este valioso material. Un verdadero triunfo de la ingeniería Sharder.",
+    "type": "GenericCrafter",
+    "category": "production",
+    "health": 520,
+    "size": 2,
+    "requirements": [
+        "copper/520",
+        "lead/240",
+        "graphite/50"
+    ],
+    "hasItems": true,
+    "craftTime": 60,
+    "itemCapacity": 10,
+    "outputItem": {
+        "item": "graphite",
+        "amount": 2
+    },
+    "research": {
+        "parent": "crux-graphite-forge",
+        "requirements": [
+            "copper/1480",
+            "lead/740",
+            "graphite/180"
+        ]
+    }
+}

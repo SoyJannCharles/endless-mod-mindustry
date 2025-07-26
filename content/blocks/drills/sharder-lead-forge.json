@@ -1,0 +1,30 @@
+{
+    "name": "Forjador de Plomo Sharder",
+    "description": "Representando la cúspide tecnológica de Sharder, este generador de plomo es el resultado de una ingeniería de precisión. Consigue la máxima eficiencia en la creación de plomo, transformando la materia elemental con un consumo energético mínimo. Es una pieza clave en la infraestructura de Sharder.",
+    "type": "GenericCrafter",
+    "category": "production",
+    "health": 1200,
+    "size": 3,
+    "requirements": [
+        "copper/220",
+        "lead/140"
+    ],
+    "hasPower": true,
+    "consumes": {
+        "power": 0.5
+    },
+    "hasItems": true,
+    "craftTime": 60,
+    "itemCapacity": 10,
+    "outputItem": {
+        "item": "lead",
+        "amount": 3
+    },
+    "research": {
+        "parent": "sharder-lead-core",
+        "requirements": [
+            "copper/8400",
+            "lead/5200"
+        ]
+    }
+}

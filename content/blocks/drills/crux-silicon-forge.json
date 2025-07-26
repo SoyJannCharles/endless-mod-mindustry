@@ -1,0 +1,30 @@
+{
+    "name": "Prototipo de Silicio Impuro",
+    "description": "Este generador de 1x1 es un vestigio de los intentos fallidos de Crux por replicar silicio. Si bien lograban sintetizar el material, el proceso original producía un silicio extremadamente impuro y de baja calidad, inservible para sus intrincados circuitos. La facción Crux lo abandonó rápidamente, considerándolo una tecnología sin futuro frente a la recolección directa de arena y carbón.",
+    "type": "GenericCrafter",
+    "category": "production",
+    "health": 120,
+    "size": 1,
+    "requirements": [
+        "copper/440",
+        "lead/280",
+        "graphite/60",
+        "silicon/30"
+    ],
+    "hasItems": true,
+    "itemCapacity": 10,
+    "craftTime": 60,
+    "outputItem": {
+        "item": "silicon",
+        "amount": 1
+    },
+    "research": {
+        "parent": "silicon-smelter",
+        "requirements": [
+            "copper/1360",
+            "lead/520",
+            "graphite/140",
+            "silicon/80"
+        ]
+    }
+}

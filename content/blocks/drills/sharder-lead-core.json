@@ -1,25 +1,26 @@
 {
     "name": "Núcleo de Plomo Sharder",
-    "description": "Este generador de 1x1 es otra ruina de la facción Crux. Sus componentes desgastados evidencian un intento fallido de conjurar plomo de la nada. Al igual que su contraparte de cobre, fue descartado por su ineficiencia y altos costos, quedando olvidado hasta ser hallado.",
+    "description": "Tras el éxito con el cobre, los ingenieros de Sharder aplicaron su conocimiento para restaurar y optimizar el generador de plomo de Crux. Ahora, esta máquina mejorada produce plomo con una eficiencia mucho mayor, consolidando el dominio de Sharder sobre la tecnología de replicación.",
     "type": "GenericCrafter",
     "category": "production",
-    "health": 100,
-    "size": 1,
+    "health": 450,
+    "size": 2,
     "requirements": [
-        "lead/10"
+        "copper/120",
+        "lead/60"
     ],
     "hasItems": true,
     "craftTime": 60,
     "itemCapacity": 10,
     "outputItem": {
         "item": "lead",
-        "amount": 1
+        "amount": 2
     },
     "research": {
-        "parent": "mechanical-drill",
+        "parent": "crux-lead-forge",
         "requirements": [
-            "copper/100",
-            "lead/100"
+            "copper/1800",
+            "lead/1200"
         ]
     }
 }
