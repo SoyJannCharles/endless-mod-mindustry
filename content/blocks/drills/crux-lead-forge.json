@@ -1,0 +1,25 @@
+{
+    "name": "Forjador Crux de Plomo",
+    "description": "Este generador de 1x1 es otra ruina de la facción Crux. Sus componentes desgastados evidencian un intento fallido de conjurar plomo de la nada. Al igual que su contraparte de cobre, fue descartado por su ineficiencia y altos costos, quedando olvidado hasta ser hallado.",
+    "type": "GenericCrafter",
+    "category": "production",
+    "health": 100,
+    "size": 1,
+    "requirements": [
+        "lead/10"
+    ],
+    "hasItems": true,
+    "craftTime": 60,
+    "itemCapacity": 10,
+    "outputItem": {
+        "item": "lead",
+        "amount": 1
+    },
+    "research": {
+        "parent": "mechanical-drill",
+        "requirements": [
+            "copper/100",
+            "lead/100"
+        ]
+    }
+}

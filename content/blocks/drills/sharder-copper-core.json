@@ -1,0 +1,24 @@
+{
+    "name": "Núcleo de Cobre Sharder",
+    "description": "Tras el hallazgo del prototipo Crux, ingenieros de Sharder lo restauraron y mejoraron. Este generador, aunque con las cicatrices de su origen, ahora produce cobre con una eficiencia notablemente superior, marcando el primer paso de Sharder en la generación de materia.",
+    "type": "GenericCrafter",
+    "category": "production",
+    "health": 100,
+    "size": 2,
+    "requirements": [
+        "copper/200"
+    ],
+    "hasItems": true,
+    "craftTime": 60,
+    "itemCapacity": 10,
+    "outputItem": {
+        "item": "copper",
+        "amount": 2
+    },
+    "research": {
+        "parent": "ancient-copper-generator",
+        "requirements": [
+            "copper/1000"
+        ]
+    }
+}

@@ -1,6 +1,6 @@
 {
-    "name": "Antiguo Generador de Cobre",
-    "description": "Una antigua tecnologia abandonada desarrollada por la ciudadela central de los Crux permite generar Cobre del aire mismo.",
+    "name": "Prototipo de Cobre Antiguo",
+    "description": "Este generador de 1x1 es una oxidada reliquia de la facción Crux. Sus toscos engranajes revelan un diseño primitivo, parte de los primeros intentos de Crux por conjurar cobre de la nada. Fue abandonado por su baja productividad, olvidado hasta su redescubrimiento.",
     "type": "GenericCrafter",
     "category": "production",
     "health": 100,
