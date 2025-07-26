@@ -1,0 +1,24 @@
+{
+    "name": "Antiguo Generador de Cobre",
+    "description": "Una antigua tecnologia abandonada desarrollada por la ciudadela central de los Crux permite generar Cobre del aire mismo.",
+    "type": "GenericCrafter",
+    "category": "production",
+    "health": 100,
+    "size": 1,
+    "requirements": [
+        "copper/10"
+    ],
+    "hasItems": true,
+    "craftTime": 60,
+    "itemCapacity": 10,
+    "outputItem": {
+        "item": "copper",
+        "amount": 1
+    },
+    "research": {
+        "parent": "mechanical-drill",
+        "requirements": [
+            "copper/100"
+        ]
+    }
+}
